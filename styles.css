@@ -1,0 +1,1050 @@
+/* Global Styles */
+
+body {
+  position: relative;
+
+  font-family: Arial, sans-serif; /* Set the font family for the entire document */
+
+  line-height: 1.6; /* Set line height for better readability */
+
+  color: blue; /* Default text color */
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Ccircle stroke='%230C00CE' vector-effect='non-scaling-stroke' id='a' fill='none' stroke-width='5.4' r='315'/%3E%3Cuse id='f' href='%23a' stroke-dasharray='100 100 100 9999'/%3E%3Cuse id='b' href='%23a' stroke-dasharray='250 250 250 250 250 9999'/%3E%3Cuse id='e' href='%23a' stroke-dasharray='1000 500 1000 500 9999'/%3E%3Cuse id='g' href='%23a' stroke-dasharray='1500 9999'/%3E%3Cuse id='h' href='%23a' stroke-dasharray='2000 500 500 9999'/%3E%3Cuse id='j' href='%23a' stroke-dasharray='800 800 800 800 800 9999'/%3E%3Cuse id='k' href='%23a' stroke-dasharray='1200 1200 1200 1200 1200 9999'/%3E%3Cuse id='l' href='%23a' stroke-dasharray='1600 1600 1600 1600 1600 9999'/%3E%3C/defs%3E%3Cg transform='translate(1000 750)' %3E%3Cg transform='rotate(97.2 0 0)' %3E%3Ccircle fill='%230C00CE' r='10'/%3E%3Cg transform='rotate(-123 0 0)'%3E%3Cuse href='%23f' transform='scale(.1) rotate(50 0 0)' /%3E%3Cuse href='%23f' transform='scale(.2) rotate(100 0 0)' /%3E%3Cuse href='%23f' transform='scale(.3) rotate(150 0 0)' /%3E%3C/g%3E%3Cg transform='rotate(-6.6 0 0)'%3E%3Cuse href='%23b' transform='scale(.4) rotate(200 0 0)' /%3E%3Cuse href='%23z' transform='scale(.5) rotate(250 0 0)' /%3E%3C/g%3E%3Cg id='z' transform='rotate(55.35 0 0)'%3E%3Cg transform='rotate(60.75 0 0)'%3E%3Cuse href='%23b'/%3E%3Cuse href='%23b' transform='scale(1.2) rotate(90 0 0)' /%3E%3Cuse href='%23b' transform='scale(1.4) rotate(60 0 0)' /%3E%3Cuse href='%23e' transform='scale(1.6) rotate(120 0 0)' /%3E%3Cuse href='%23e' transform='scale(1.8) rotate(30 0 0)' /%3E%3C/g%3E%3C/g%3E%3Cg id='y' transform='rotate(29.7 0 0)'%3E%3Cg transform='rotate(36.45 0 0)'%3E%3Cuse href='%23e' transform='scale(1.1) rotate(20 0 0)' /%3E%3Cuse href='%23g' transform='scale(1.3) rotate(-40 0 0)' /%3E%3Cuse href='%23g' transform='scale(1.5) rotate(60 0 0)' /%3E%3Cuse href='%23h' transform='scale(1.7) rotate(-80 0 0)' /%3E%3Cuse href='%23j' transform='scale(1.9) rotate(100 0 0)' /%3E%3C/g%3E%3C/g%3E%3Cg transform='rotate(-72.9 0 0)'%3E%3Cg transform='rotate(-55.35 0 0)'%3E%3Cg transform='rotate(-39.6 0 0)'%3E%3Cuse href='%23h' transform='scale(2) rotate(60 0 0)'/%3E%3Cuse href='%23j' transform='scale(2.1) rotate(120 0 0)'/%3E%3Cuse href='%23j' transform='scale(2.3) rotate(180 0 0)'/%3E%3Cuse href='%23h' transform='scale(2.4) rotate(240 0 0)'/%3E%3Cuse href='%23j' transform='scale(2.5) rotate(300 0 0)'/%3E%3C/g%3E%3Cuse href='%23y' transform='scale(2) rotate(180 0 0)' /%3E%3Cuse href='%23j' transform='scale(2.7)'/%3E%3Cuse href='%23j' transform='scale(2.8) rotate(45 0 0)'/%3E%3Cuse href='%23j' transform='scale(2.9) rotate(90 0 0)'/%3E%3Cuse href='%23k' transform='scale(3.1) rotate(135 0 0)'/%3E%3Cuse href='%23k' transform='scale(3.2) rotate(180 0 0)'/%3E%3C/g%3E%3Cuse href='%23k' transform='scale(3.3) rotate(225 0 0)'/%3E%3Cuse href='%23k' transform='scale(3.5) rotate(270 0 0)'/%3E%3Cuse href='%23k' transform='scale(3.6) rotate(315 0 0)'/%3E%3Cuse href='%23k' transform='scale(3.7)'/%3E%3Cuse href='%23k' transform='scale(3.9) rotate(75 0 0)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+header {
+  position: relative;
+
+  color: #fff; /* Set text color */
+
+  padding-top: 0; /* Add vertical padding */
+
+  margin-top: 0;
+
+  text-align: center; /* Center-align the header text */
+
+  z-index: 2;
+}
+
+/* header bg design Animation */
+
+.headerContainer {
+  position: relative;
+
+  inset: 0;
+
+  width: 100%;
+
+  height: 258px;
+
+  margin-top: 0;
+
+  border: solid 8px #222327;
+
+  border-radius: 0 0 25px 25px;
+
+  z-index: 1;
+}
+
+.headerContainer::before {
+  content: "";
+
+  position: absolute;
+
+  top: -20px;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background: black;
+
+  background-image: radial-gradient(
+      4px 100px at 0px 235px,
+      rgb(255, 140, 17),
+      #0000
+    ),
+    radial-gradient(4px 100px at 300px 235px, rgb(255, 119, 0), #884e2800),
+    radial-gradient(
+      1.5px 1.5px at 150px 117.5px,
+      rgb(255, 144, 9) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 252px, rgb(156, 14, 137), #0000),
+    radial-gradient(4px 100px at 300px 252px, rgb(23, 41, 206), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 126px,
+      rgb(247, 102, 18) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 150px, rgb(249, 121, 16), #0000),
+    radial-gradient(4px 100px at 300px 150px, rgb(255, 128, 18), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 75px,
+      rgb(255, 116, 10) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 253px, rgb(249, 137, 17), #0000),
+    radial-gradient(4px 100px at 300px 253px, rgb(248, 107, 14), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 126.5px,
+      rgb(252, 129, 14) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 204px, rgb(234, 115, 18), #0000),
+    radial-gradient(4px 100px at 300px 204px, rgb(255, 139, 6), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 102px,
+      rgb(255, 128, 9) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 134px, rgb(249, 133, 9), #0000),
+    radial-gradient(4px 100px at 300px 134px, rgb(251, 125, 15), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 67px,
+      rgb(255, 146, 13) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 179px, rgb(249, 137, 17), #0000),
+    radial-gradient(4px 100px at 300px 179px, rgb(253, 122, 6), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 89.5px,
+      rgb(234, 132, 7) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 299px, rgb(255, 115, 0), #0000),
+    radial-gradient(4px 100px at 300px 299px, rgb(255, 136, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 149.5px,
+      rgb(255, 123, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 215px, rgb(255, 145, 0), #0000),
+    radial-gradient(4px 100px at 300px 215px, rgb(255, 132, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 107.5px,
+      rgb(255, 136, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 281px, rgb(255, 170, 0), #0000),
+    radial-gradient(4px 100px at 300px 281px, rgb(255, 115, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 140.5px,
+      rgb(255, 119, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 158px, rgb(255, 123, 0), #0000),
+    radial-gradient(4px 100px at 300px 158px, rgb(255, 132, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 79px,
+      rgb(255, 149, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 210px, rgb(255, 123, 0), #0000),
+    radial-gradient(4px 100px at 300px 210px, rgb(255, 162, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 105px,
+      rgb(255, 136, 0) 100%,
+      #0000 150%
+    );
+
+  background-size: 300px 235px, 300px 235px, 300px 235px, 300px 252px,
+    300px 252px, 300px 252px, 300px 150px, 300px 150px, 300px 150px, 300px 253px,
+    300px 253px, 300px 253px, 300px 204px, 300px 204px, 300px 204px, 300px 134px,
+    300px 134px, 300px 134px, 300px 179px, 300px 179px, 300px 179px, 300px 299px,
+    300px 299px, 300px 299px, 300px 215px, 300px 215px, 300px 215px, 300px 281px,
+    300px 281px, 300px 281px, 300px 158px, 300px 158px, 300px 158px, 300px 210px,
+    300px 210px, 300px 210px;
+
+  animation: hi 150s linear infinite;
+
+  z-index: -1;
+}
+
+@keyframes hi {
+  0% {
+    background-position: 0px 220px, 3px 220px, 151.5px 337.5px, 25px 24px,
+      28px 24px, 176.5px 150px, 50px 16px, 53px 16px, 201.5px 91px, 75px 224px,
+      78px 224px, 226.5px 350.5px, 100px 19px, 103px 19px, 251.5px 121px,
+      125px 120px, 128px 120px, 276.5px 187px, 150px 31px, 153px 31px,
+      301.5px 120.5px, 175px 235px, 178px 235px, 326.5px 384.5px, 200px 121px,
+      203px 121px, 351.5px 228.5px, 225px 224px, 228px 224px, 376.5px 364.5px,
+      250px 26px, 253px 26px, 401.5px 105px, 275px 75px, 278px 75px,
+      426.5px 180px;
+  }
+
+  to {
+    background-position: 0px 6800px, 3px 6800px, 151.5px 6917.5px, 25px 13632px,
+      28px 13632px, 176.5px 13758px, 50px 5416px, 53px 5416px, 201.5px 5491px,
+      75px 17175px, 78px 17175px, 226.5px 17301.5px, 100px 5119px, 103px 5119px,
+      251.5px 5221px, 125px 8428px, 128px 8428px, 276.5px 8495px, 150px 9876px,
+      153px 9876px, 301.5px 9965.5px, 175px 13391px, 178px 13391px,
+      326.5px 13540.5px, 200px 14741px, 203px 14741px, 351.5px 14848.5px,
+      225px 18770px, 228px 18770px, 376.5px 18910.5px, 250px 5082px,
+      253px 5082px, 401.5px 5161px, 275px 6375px, 278px 6375px, 426.5px 6480px;
+  }
+}
+
+/* Import Google Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0; /* Remove default margin */
+
+  padding: 0; /* Remove default padding */
+
+  box-sizing: border-box; /* Ensure padding and border do not affect element width/height */
+
+  font-family: "Poppins", sans-serif; /* Set the font family globally */
+}
+/* logo style */
+.logo {
+  position: fixed;
+  top: 6px;
+  left: 8px;
+
+  width: 50px;
+
+  height: 50px;
+  border: 5px solid #222327;
+  border-radius: 8px;
+  display: block;
+  transition: all 0.3s ease;
+
+  cursor: pointer;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  z-index: 1000;
+}
+
+.logo.zoomed {
+  width: 400px; /* You can adjust this size */
+  height: 400px;
+}
+
+/* Define CSS variables */
+
+:root {
+  --clr: #222327; /* Main color variable */
+}
+
+/* Navigation Bar */
+
+nav {
+  display: flex; /* Use flexbox for layout */
+
+  justify-content: center; /* Center the content */
+
+  align-items: center; /* Align items vertically */
+
+  height: 90px; /* Set height for navigation bar */
+
+  border-radius: 10px; /* Add rounded corners */
+
+  background: var(--clr); /* Use variable for background color */
+}
+
+/* Navigation Container */
+
+.navigation {
+  position: relative; /* Set relative positioning */
+
+  z-index: 3;
+
+  width: 400px; /* Set width */
+
+  height: 70px; /* Set height */
+
+  background: #00ffff; /* Set background color */
+
+  display: flex; /* Use flexbox for layout */
+
+  justify-content: center; /* Center content horizontally */
+
+  align-items: center; /* Center content vertically */
+
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.navigation ul {
+  display: flex; /* Use flexbox for layout */
+
+  width: 350px; /* Set width */
+}
+
+.navigation ul li {
+  position: relative; /* Set relative positioning for child elements */
+
+  list-style: none; /* Remove list style */
+
+  width: 70px; /* Set width for each navigation item */
+
+  height: 70px; /* Set height for each navigation item */
+
+  z-index: 1; /* Set stacking order */
+}
+
+.navigation ul li a {
+  position: relative; /* Set relative positioning */
+
+  display: flex; /* Use flexbox for layout */
+
+  justify-content: center; /* Center content horizontally */
+
+  align-items: center; /* Center content vertically */
+
+  flex-direction: column; /* Align content vertically */
+
+  width: 100%; /* Full width */
+
+  text-align: center; /* Center-align text */
+
+  font-weight: 500; /* Set font weight */
+}
+
+.navigation ul li a .icon {
+  position: relative; /* Set relative positioning */
+
+  display: block; /* Display as block element */
+
+  line-height: 75px; /* Set line height for icons */
+
+  font-size: 1.5em; /* Set font size for icons */
+
+  text-align: center; /* Center-align icon text */
+
+  transition: 0.5s; /* Add transition for hover effect */
+
+  color: var(--clr); /* Use variable for text color */
+}
+
+.navigation ul li.active a .icon {
+  transform: translateY(-32px); /* Move the active icon upward */
+}
+
+.navigation ul li a .text {
+  position: absolute; /* Position text absolutely within its parent */
+
+  color: var(--clr); /* Use variable for text color */
+
+  font-weight: 400; /* Set font weight */
+
+  font-size: 0.75em; /* Set font size */
+
+  letter-spacing: 0.05em; /* Add spacing between letters */
+
+  transition: 0.5s; /* Add transition effect */
+
+  opacity: 0; /* Hide text initially */
+
+  transform: translateY(20px); /* Move text downward initially */
+}
+
+.navigation ul li.active a .text {
+  opacity: 1; /* Show text */
+
+  transform: translateY(10px); /* Move text upward */
+}
+
+/* Navigation Indicator */
+
+.indicator {
+  position: absolute; /* Position indicator absolutely within navigation */
+
+  top: -50%; /* Move indicator upward */
+
+  width: 70px; /* Set width */
+
+  height: 70px; /* Set height */
+
+  background: #29fd53; /* Set background color */
+
+  border-radius: 50%; /* Make indicator circular */
+
+  border: 6px solid var(--clr); /* Add border */
+
+  transition: 0.5s; /* Add transition effect */
+}
+
+.indicator::before {
+  content: ""; /* Add pseudo-element */
+
+  position: absolute; /* Position absolutely */
+
+  top: 50%; /* Center vertically */
+
+  left: -22px; /* Position on the left */
+
+  width: 20px; /* Set width */
+
+  height: 20px; /* Set height */
+
+  background: transparent; /* Set background as transparent */
+
+  border-top-right-radius: 20px; /* Round top-right corner */
+
+  box-shadow: 0 -10px 0 0 var(--clr); /* Add shadow */
+  }
+.indicator::after {
+  content: ""; /* Add pseudo-element */
+
+  position: absolute; /* Position absolutely */
+
+  top: 50%; /* Center vertically */
+
+  right: -22px; /* Position on the right */
+
+  width: 20px; /* Set width */
+
+  height: 20px; /* Set height */
+
+  background: transparent; /* Set background as transparent */
+
+  border-top-left-radius: 20px; /* Round top-left corner */
+
+  box-shadow: 0 -10px 0 0 var(--clr); /* Add shadow */
+}
+
+/* Active Indicator Movement */
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+  transform: translateX(calc(70px * 0)); /* Move to the first item */
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+  transform: translateX(calc(70px * 1)); /* Move to the second item */
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+  transform: translateX(calc(70px * 2)); /* Move to the third item */
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator {
+  transform: translateX(calc(70px * 3)); /* Move to the fourth item */
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator {
+  transform: translateX(calc(70px * 4)); /* Move to the fifth item */
+}
+
+/* Main Content Styles */
+
+main {
+  padding: 20px; /* Add padding */
+
+  max-width: 1200px; /* Set maximum width */
+
+  margin: 20px auto; /* Center content with auto margins */
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+
+  border-radius: 8px; /* Add rounded corners */
+}
+
+/* Section-Specific Styles */
+
+
+.headingtext {
+  position: relative;
+
+  z-index: 3;
+
+  font-family: "Grand Hotel", cursive;
+
+  font-weight: 5000;
+
+  font-style: normal;
+
+  font-size: 65px; /* Set font size */
+
+  background-image: url("https://i.postimg.cc/tTm47c86/Gift1.gif"); /* Add animated text background */
+
+  background-size: cover; /* Cover the entire text */
+
+  background-position: center; /* Center the background */
+
+  color: transparent; /* Make text transparent */
+
+  margin: 5px; /* Add margin */
+
+  background-clip: text; /* Clip background to text */
+
+  -webkit-background-clip: text; /* Webkit-specific background clipping */
+}
+
+#headtext {
+  color: #fff; /* Set heading text color */
+}
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+#paragraphtext {
+  color: yellow; /* Set paragraph text color */
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  margin-bottom: 40px; /* Add space between sections */
+}
+
+/* Product Catalog */
+
+.product-catalog {
+  display: flex; /* Use flexbox for layout */
+
+  justify-content: space-between; /* Space out items */
+
+  flex-wrap: wrap; /* Allow wrapping of items */
+}
+
+/* Product Cards */
+
+.product-card {
+  flex-basis: 30%; /* Set base width for each product card */
+
+  background-color: black; /* Set background color */
+
+  padding: 10px; /* Add padding */
+
+  margin-bottom: 20px; /* Add bottom margin */
+
+  border-radius: 8px; /* Add rounded corners */
+
+  text-align: center; /* Center-align text */
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Add hover effect */
+}
+
+.product-card img {
+  border-radius: 8px; /* Add rounded corners to images */
+
+  margin-bottom: 10px; /* Add bottom margin */
+
+  height: 150px; /* Set image height */
+
+  width: 150px; /* Set image width */
+}
+
+/* Order Button */
+
+.order-btn {
+  background-color: #27ae60; /* Set button background color */
+
+  color: #fff; /* Set text color */
+
+  padding: 10px 15px; /* Add padding */
+
+  border: none; /* Remove border */
+
+  border-radius: 5px; /* Add rounded corners */
+
+  cursor: pointer; /* Change cursor on hover */
+
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.order-btn:hover {
+  background-color: #2ecc71; /* Change background color on hover */
+}
+
+/* Footer */
+
+footer {
+  background-color: black; /* Set background color */
+
+  color: #fff; /* Set text color */
+
+  text-align: center; /* Center-align text */
+
+  padding: 10px 0; /* Add padding */
+
+  position: fixed; /* Fix footer at the bottom */
+
+  bottom: 0; /* Align to the bottom */
+
+  width: 100%; /* Full width */
+}
+
+/* Profile Image */
+
+.me {
+  width: 300px; /* Set image width */
+
+  height: 300px; /* Set image height */
+
+  border-radius: 150px; /* Make image circular */
+
+  border: solid 10px blue; /* Add border */
+
+  margin-left: 50px; /* Add left margin */
+}
+
+/* Slider */
+
+.slider {
+  width: 385px; /* Set slider width */
+
+  height: 350px; /* Set slider height */
+
+  overflow: hidden; /* Hide overflowing content */
+
+  position: relative; /* Set relative positioning */
+
+  border: 5px solid blue; /* Add border */
+
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.slides {
+  display: flex; /* Use flexbox for layout */
+
+  transition: transform 1s ease-in-out; /* Add transition effect */
+
+  width: calc(100% * 4); /* Adjust based on the number of images */
+}
+
+.slides img {
+  width: 385px; /* Set image width */
+
+  height: 350px; /* Set image height */
+
+  flex-shrink: 0; /* Prevent images from shrinking */
+}
+
+/* Slider Animation */
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  } /* Start position */
+
+  100% {
+    transform: translateX(calc(-100% * var(--slide-count)));
+  } /* End position */
+}
+
+/* Contact Button */
+
+#contactbutton {
+  background-color: blue; /* Set button background color */
+
+  font-size: 20px; /* Set font size */
+
+  border-radius: 10px; /* Add rounded corners */
+
+  padding: 10px; /* Add padding */
+
+  display: block; /* Display as block element */
+
+  text-align: center; /* Center-align text */
+
+  margin: 10px; /* Add margin */
+
+  color: white; /* Set text color */
+}
+
+/* Section Visibility */
+
+section{
+  display: none; /* Hide all sections by default */
+}
+
+section.active {
+  display: block; /* Show active section */
+}
+
+/* Order Animation */
+
+.order-animation {
+  width: 100%; /* Full width */
+
+  height: 4px; /* Set height */
+
+  background-color: #27ae60; /* Set background color */
+
+  animation: place-order 2s ease-out; /* Add animation */
+
+  margin-top: 10px; /* Add top margin */
+
+  border-radius: 2px; /* Add rounded corners */
+}
+
+@keyframes place-order {
+  0% {
+    width: 0;
+  } /* Start with no width */
+
+  100% {
+    width: 100%;
+  } /* Expand to full width */
+}
+
+/*Search bar*/
+
+.search-container {
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  background: cyan;
+
+  padding: 10px;
+
+  border-radius: 50%; /* Start with circular shape */
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  transition: width 0.3s ease, height 0.3s ease, border-radius 0.3s ease,
+    background-color 0.3s ease;
+
+  width: 50px; /* Smaller initial width */
+
+  height: 50px; /* Smaller initial height */
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  border: solid 4px #222327;
+
+  color: #222327;
+
+  margin-bottom: 5px;
+
+  font-size: 30px;
+}
+
+.search-box.active {
+  width: 300px; /* Expand to desired width */
+
+  height: 40px; /* Maintain height during expansion */
+
+  border-radius: 30px; /* Smooth rounded rectangle */
+
+  background: #fff;
+
+  border: solid 5px #222327;
+}
+
+.search-box input {
+  border: none;
+
+  outline: none;
+
+  flex: 1;
+
+  font-size: 16px;
+
+  display: none;
+}
+
+.search-box.active input {
+  display: block; /* Show input field when active */
+}
+
+.icon {
+  font-size: 30px;
+
+  cursor: pointer;
+}
+
+.search-box .close-icon {
+  display: none;
+
+  transition: opacity 0.3s ease;
+
+  opacity: 0;
+}
+
+.search-box.active .close-icon {
+  display: block; /* Show close icon when active */
+
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+  }
+/*Buttons of Setting*/
+
+.toggle-switch {
+  position: relative;
+
+  display: inline-block;
+
+  width: 40px;
+
+  height: 24px;
+
+  margin: 10px;
+}
+
+/* Giriş stil */
+
+.toggle-switch .toggle-input {
+  display: none;
+}
+
+/* Anahtarın stilinin etrafındaki etiketin stil */
+
+.toggle-switch .toggle-label {
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 40px;
+
+  height: 24px;
+
+  background-color: #2196f3;
+
+  border-radius: 34px;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+/* Anahtarın yuvarlak kısmının stil */
+
+.toggle-switch .toggle-label::before {
+  content: "";
+
+  position: absolute;
+
+  width: 20px;
+
+  height: 20px;
+
+  border-radius: 50%;
+
+  top: 2px;
+
+  left: 2px;
+
+  background-color: #fff;
+
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+
+  transition: transform 0.3s;
+}
+
+/* Anahtarın etkin hale gelmesindeki stil değişiklikleri */
+
+.toggle-switch .toggle-input:checked + .toggle-label {
+  background-color: #4caf50;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
+}
+
+/* Light tema */
+
+.toggle-switch.light .toggle-label {
+  background-color: #bebebe;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label {
+  background-color: #9b9b9b;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label::before {
+  transform: translateX(6px);
+}
+
+/* Dark tema */
+
+.toggle-switch.dark .toggle-label {
+  background-color: #4b4b4b;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label {
+  background-color: #717171;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
+}
+/* Menu slid bar */
+.menu-toggle {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  z-index: 1001;
+  cursor: pointer;
+  background: #222327;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu-icon {
+  color: white;
+  font-size: 24px;
+}
+
+.slide-menu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background: rgba(34, 35, 39, 0.9);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  transition: right 0.3s ease;
+}
+
+.slide-menu.active {
+  right: 0;
+}
+
+.slide-menu-content {
+  padding: 80px 20px 20px;
+  height: 100%; /* Ensure it takes full height */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.slide-menu ul {
+  list-style: none;
+  min-height: min-content; /* Ensure the list can shrink if needed */
+}
+
+.slide-menu ul li {
+  margin-bottom: 15px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.slide-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adjust this value to control spacing between icon and text */
+  transition: background 0.3s;
+}
+
+.slide-menu ul li a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Add overlay when menu is open */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+  display: none;
+}
+
+.menu-overlay.active {
+  display: block;
+}
+.slide-menu .menu-icon {
+  font-size: 20px; /* Adjust icon size if needed */
+  margin-right: 2px; /* Additional spacing if needed */
+}
+
+.slide-menu .menu-text {
+  display: inline-block;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+/*Marketing tag line*/
+  #adtagline{
+    font-family: "Special Gothic Expanded One", sans-serif;
+  }
+/*Gradient head text (Tag line) */
+  #headtagline {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 15px;
+    font-weight: 3000;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+  .gradient-text {
+    background: linear-gradient(
+      90deg,
+      #FF0000, #FF4500, #FF8C00, #FFA500,
+      #FFD700, #FFFF00, #ADFF2F, #7CFC00,
+      #00FF00, #00FA9A, #00FFFF, #00BFFF,
+      #1E90FF, #4169E1, #8A2BE2, #9932CC,
+      #DA70D6, #FF00FF, #FF1493, #FF0000
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 500% 500%;
+    animation: gradient 12s ease infinite;
+    padding: 0px;
+    text-align: center;
+    line-height: 1.3;
+    position: relative;
+    margin: 0 0 27px 0;
+  }
+
+  /* Gradient-colored shadow */
+  .gradient-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: calc(100% - 50px);
+    height: 30px;
+    background: inherit;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 500% 500%;
+    animation: gradient 12s ease infinite;
+    z-index: -1;
+    filter: blur(8px);
+    opacity: 0.7;
+  }
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
