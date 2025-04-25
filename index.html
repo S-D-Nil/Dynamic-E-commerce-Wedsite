@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King's S.D.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="headerContainer"> <!--header bg animation container -->
+            <div>
+                <img src="https://i.postimg.cc/NG217kCb/Logo1.jpg" alt="Company Logo" id="logo" class="logo"><!--logo-->
+                <!-- Menu slid bar -->
+                <div class="menu-toggle"> <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+                </div> <!-- Website header containing title and navigation bar -->
+                <h1 class="headingtext">King's S.D.</h1>
+                <h6 class="gradient-text" id="headtagline" ">Where Royality Meets Supreme Quality</h6> 
+                                                        <nav> <!-- Navigation bar --> 
+                                                              <div class=" navigation">
+                    <ul>
+                        <li class="list active"> <!-- Link to Home section --> <a href="#home"> <span class="icon">
+                                    <ion-icon name="home-outline"></ion-icon> </span> <span class="text">Home</span>
+                            </a> </li>
+                        <li class="list"> <!-- Link to About section --> <a href="#about"> <span class="icon">
+                                    <ion-icon name="earth-outline"></ion-icon> </span> <span class="text">About</span>
+                            </a> </li>
+                        <li class="list"> <!-- Link to Services section --> <a href="#services"> <span class="icon">
+                                    <ion-icon name="bicycle-outline"></ion-icon> </span> <span
+                                    class="text">Services</span> </a> </li>
+                        <li class="list"> <!-- Link to Contact section --> <a href="#contact"> <span class="icon">
+                                    <ion-icon name="call-outline"></ion-icon> </span> <span class="text">Contact</span>
+                            </a> </li>
+                        <li class="list"> <!-- Link to Settings section --> <a href="#settings"> <span class="icon">
+                                    <ion-icon name="settings-outline"></ion-icon> </span> <span
+                                    class="text">Settings</span> </a> </li> <!-- Indicator for active menu item -->
+                        <div class="indicator"></div>
+                    </ul>
+            </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <main> <!-- Main content of the website -->
+        <section id="home"> <!-- Home section -->
+            <div class="slider"> <!-- Image slider -->
+                <div class="slides">
+                    <img src="https://i.postimg.cc/nrWPg4gB/Console.jpg" alt="Image 1">
+                    <img src="https://i.postimg.cc/R08GMSXx/Drone.jpg" alt="Image 2">
+                    <img src="https://i.postimg.cc/mrxtRKC6/Tab.jpg" alt="Image 3">
+                    <img src="https://i.postimg.cc/j5c5H59G/Smart-TV.jpg" alt="Image 4">
+                </div>
+            </div> <!-- Header of Home section containing title and search bar -->
+            <div class="home-header">
+                <h2 id="headtext">Our Products</h2>
+                <div class="search-container"> <!-- Search bar -->
+                    <div class="search-box"> <ion-icon name="search-outline" class="icon search-icon"></ion-icon>
+                        <input type="text" id="search-input" placeholder="Search products..."
+                            oninput="filterProducts()"> <ion-icon name="close-outline" class="icon close-icon"
+                            onclick="clearSearch()"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-catalog"> <!-- Product catalog with product cards -->
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/nrWPg4gB/Console.jpg" alt="Gaming Console">
+                    <p>Gaming Console - $499.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/zBVMj2P8/Laptop.jpg" alt="Laptop">
+                    <p>Laptop - $999.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/sgTwN9WX/Mobile.jpg" alt="Mobile Phone">
+                    <p>Mobile Phone - $799.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/LshNKYkV/Watch.jpg" alt="Smart Watch">
+                    <p>Smart Watch - $199.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/R08GMSXx/Drone.jpg" alt="Drone">
+                    <p>Drone - $599.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/C5C4HjYw/Headset.jpg" alt="Headphones">
+                    <p>Headphones - $149.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/bYLDbCfs/Speaker.jpg" alt="Bluetooth Speaker">
+                    <p>Bluetooth Speaker - $99.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/TY4KNKwx/Camera.jpg" alt="Camera">
+                    <p>Camera - $499.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/mrxtRKC6/Tab.jpg" alt="Tablet">
+                    <p>Tablet - $399.99</p> <button class="order-btn">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/j5c5H59G/Smart-TV.jpg" alt="Smart TV">
+                    <p>Smart TV - $1199.99</p> <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2 id="headtext">About Us</h2>
+            <h3 class="gradient-text" id="adtagline">Fit for a King, Built for the Future</h3>
+            <img class="me" src="https://i.postimg.cc/BQJJ44jz/Me1.jpg" alt="S.D.Nil">
+            <p id="paragraphtext">Hey! I'm S.D.Nil, the owner and CEO of King's S.D., one of the biggest shopping site
+                in the world. Here, you can buy your necessary products within minutes.</p> <a
+                href="https://codepen.io/hidinhgy-the-selector/full/zxOmmWY" target="_blank" id="contactbutton"> My
+                Portfolio</a>
+        </section>
+        <section id="services">
+            <h2 id="headtext">Our Services</h2>
+            <p id="paragraphtext">We offer a wide range of products, quick delivery, and 24/7 customer support.<br>Our
+                shop opens at 9 am, closes at 10 pm.<br>Our brunches:<br>👉2201 Wisconsin Avenue NW,DC,USA<br>👉1500
+                East Capitol Street NE,DC,USA<br>👉221B Baker Street,London NW1 6XE<br>👉88 Victoria Road,Glasgow G42
+                8YU<br>👉32 Kingsway,London WC2B 6EX</p>
+        </section>
+        <section id="contact">
+            <h2 id="headtext">Contact Us</h2>
+            <p id="paragraphtext">Our shop headquarter's location is Washington DC, USA.<br> Our shop opens at 9 am,
+                closes at 10 pm.<br> For more details, contact us<br>Mail: <strong>gamersclub3232@gmail.com<br>
+                </strong></p>
+            <h2 id="paragraphtext"><strong> <strong> <em> Or </em> </strong> </strong></h2><strong><a
+                    href="https://www.instagram.com/_s.d.nil_?igsh=YzljYTk1ODg3Zg==" target="_blank" id="contactbutton">
+                    Contact us</a>
+                <p></p>
+            </strong>
+        </section>
+        <section id="settings">
+            <h2 id="headtext">Settings</h2>
+            <p id="paragraphtext"> Change into the light theme </p>
+            <div class="toggle-switch">
+                <input onclick="lightTheme()" class="toggle-input" id="toggle" type="checkbox"> <label
+                    class="toggle-label" for="toggle"></label>
+            </div>
+            <p id="paragraphtext">We are working on the settings section. Soon it will be prepared for use.Follow me on
+                inata for update and feel free to ask any development related question in my DM.Insta link in bio.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 S.D.Nil. All rights reserved.</p>
+    </footer> <!-- Menu slid bar -->
+    <div class="slide-menu">
+        <div class="slide-menu-content">
+            <ul>
+                <li><a href="#home">
+                        <ion-icon name="home-outline" class="menu-icon"></ion-icon><span
+                            class="menu-text">Home</span></a></li>
+                <li><a href="#about">
+                        <ion-icon name="earth-outline" class="menu-icon"></ion-icon><span
+                            class="menu-text">About</span></a></li>
+                <li><a href="#services">
+                        <ion-icon name="bicycle-outline" class="menu-icon"></ion-icon><span
+                            class="menu-text">Services</span></a></li>
+                <li><a href="#contact">
+                        <ion-icon name="call-outline" class="menu-icon"></ion-icon><span
+                            class="menu-text">Contact</span></a></li>
+                <li><a href="#settings">
+                        <ion-icon name="settings-outline" class="menu-icon"></ion-icon><span
+                            class="menu-text">Settings</span></a></li>
+            </ul>
+        </div>
+    </div> <!-- Include external JavaScript -->
+    <script src="scripts.js"></script>
+    <script>
+        // Highlight active navigation item
+        const list = document.querySelectorAll('.list');
+
+        function activeLink() {
+            list.forEach((item) => item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) => item.addEventListener('click', activeLink));
+        // Filter products based on search input
+        function filterProducts() {
+            const input = document.getElementById('search-input').value.toLowerCase();
+            const products = document.querySelectorAll('.product-card');
+            products.forEach((product) => {
+                const text = product.textContent.toLowerCase();
+                product.style.display = text.includes(input) ? '' : 'none';
+            });
+        }
+        // Clear search input and show all products
+        function clearSearch() {
+            document.getElementById('search-input').value = '';
+            filterProducts();
+        }
+    </script>
+    <!-- Ionicons library -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script> <!--logo zoom -->
+
+        logo = document.getElementById('logo');
+
+        logo.addEventListener('click', function () {
+
+            logo.classList.toggle('zoomed');
+
+        });
+    </script>
+</body>
+
+</html>
