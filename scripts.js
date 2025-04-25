@@ -263,4 +263,3 @@ document.querySelectorAll('.slide-menu a').forEach(link => {
         menuOverlay.classList.remove('active');
     });
 })
-})
