@@ -5,9 +5,13 @@
 
 <p>Welcome to the official repository of <strong>King's S.D. - Dynamic E-commerce Wedsite.<br>Developed by S.D.Nil</strong></p>
 
+---
+
 ## 🌐 Live Demo
 
 [![View Website](https://img.shields.io/badge/View_Website-Click_Here-blue?style=for-the-badge)](https://codepen.io/hidinhgy-the-selector/full/wBweOGw)
+
+---
 
 ## 🌟 Key Features
 
@@ -60,6 +64,8 @@ This isn't just a website - it's an **ever-evolving showcase** of the world's be
 - **Keyframe Animations** for smooth transitions
 - **Dynamic Background Generation** with SVG
 
+---
+
 ## 🛠️ Built With
 
 - **HTML5** - Structure and semantic layout
@@ -68,25 +74,34 @@ This isn't just a website - it's an **ever-evolving showcase** of the world's be
 - **Ionicons** - Beautiful icon set
 - **Google Fonts** - Typography
 
+---
+
 ## 📸 Photos
 
-<div align="center">
-  <img src="https://i.postimg.cc/nrWPg4gB/Console.jpg" width="30%" alt="Product Showcase">
-  <img src="https://i.postimg.cc/R08GMSXx/Drone.jpg" width="30%" alt="Navigation System">
-  <img src="https://i.postimg.cc/mrxtRKC6/Tab.jpg" width="30%" alt="Mobile Responsive">
-</div>
+### Home Section
+![Project Screenshot 1](https://i.postimg.cc/RZvFccHX/Project3.jpg)
+
+### Products
+![Project Screenshot 2](https://i.postimg.cc/BQ184TWv/Project4.jpg)
+
+### Slide Menu Bar
+![Project Screenshot 3](https://i.postimg.cc/FHy7JhH5/Project5.jpg)
+
+---
 
 ## ✍️ Author
 
 **S.D.Nil**  
 Passionate about crafting smooth user experiences and beautiful interfaces.
 
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/16381jBqFQ/)<br>
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_s.d.nil_?igsh=YzljYTk1ODg3Zg==)<br>
-[![CodePen](https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/hidinhgy-the-selector/pens/)<br>
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gamersclub3232@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/share/16381jBqFQ/)  
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_s.d.nil_)  
+[![Codepen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)](https://codepen.io/hidinhgy-the-selector)  
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gamersclub3232@gmail.com)
+
+---
 
 ## 📜 License
 
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the [MIT License](LICENSE).
 ```
