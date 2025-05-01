@@ -1,4 +1,4 @@
-# King's S.D. - Premium E-commerce Platform
+# King's S.D. - Premium E-commerce platform
 # S.D.Nil
 
 <h3>Where Royalty Meets Supreme Quality.</h3>
