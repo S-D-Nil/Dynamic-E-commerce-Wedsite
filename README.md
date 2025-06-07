@@ -9,7 +9,7 @@ S.D.Nil</h1></div>
 
 ## 🌐 Live Demo
 
-[![View Website](https://img.shields.io/badge/View_Website-Click_Here-blue?style=for-the-badge)](https://codepen.io/hidinhgy-the-selector/full/wBweOGw)
+[![View Website](https://img.shields.io/badge/View_Website-Click_Here-blue?style=for-the-badge)](https://king-ssd.vercel.app/)
 
 ---
 
