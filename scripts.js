@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Welcome message displayed when the page is loaded
 
     alert(
-        "Welcome to King's S.D. Created by S.D.Nil.If it's helpful for you, then give a like! If you need any help feel free to DM in @_s.d.nil_. Insta link in bio."
+        "Welcome to King's S.D. Created by S.D.Nil. Feel free to DM in @_s.d.nil_ for any question."
     );
 
     // Order button functionality
