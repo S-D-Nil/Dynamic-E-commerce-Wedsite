@@ -1,4 +1,4 @@
-<div align="center"><h1>King's S.D. - Premium E-commerce Platform<br>
+<div align="center"><h1>King's S.D.<br><sub> - Premium E-commerce Platform</sub><br>
 S.D.Nil</h1></div>
 
 <div align="center"><h3>Where Royalty Meets Supreme Quality.</h3>
